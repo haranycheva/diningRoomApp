@@ -1,0 +1,39 @@
+// common styles
+body {
+  position: relative;
+  line-height: normal;
+  font-family: Montserrat;
+}
+
+// backgrounds
+
+.background_main-page-gradient {
+  background: linear-gradient(166deg, #c5d9eb 0%, #1964a9 130.54%);
+}
+
+// common classes
+
+.container {
+  max-width: 420px;
+  margin: 0 auto;
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1440px) {
+    max-width: 1440px;
+  }
+}
+
+.is-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

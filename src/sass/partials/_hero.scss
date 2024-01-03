@@ -1,0 +1,29 @@
+.hero {
+  background: url('../img/hero-background.png') center/cover no-repeat;
+  &__container {
+    padding: 90px 0 317px 24px;
+  }
+
+  &__title {
+    margin-bottom: 35px;
+    max-width: 302px;
+    font-size: 48px;
+    color: #1f4474;
+    @media screen and (min-width: 768px) {
+      max-width: 706px;
+      font-size: 96px;
+    }
+  }
+
+  &__slogan {
+    max-width: 279px;
+
+    font-family: Inter;
+    font-size: 24px;
+    color: $text-color;
+    @media screen and (min-width: 768px) {
+      max-width: 522px;
+      font-size: 32px;
+    }
+  }
+}

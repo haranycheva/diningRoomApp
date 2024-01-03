@@ -1,0 +1,51 @@
+.about {
+  &__container {
+    padding: 63px 25px 0 24px;
+    font-family: 'Inter';
+    @media screen and (min-width: 1440px) {
+      padding-top: 53px;
+    }
+  }
+
+  &__title {
+    margin: 0 auto;
+    margin-bottom: 23px;
+    max-width: 369px;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: $dark-accent-color;
+    @media screen and (min-width: 768px) {
+      margin-bottom: 48px;
+      max-width: 619px;
+      font-size: 40px;
+      text-align: center;
+    }
+  }
+
+  &__text-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    @media screen and (min-width: 1440px) {
+      flex-direction: row;
+      gap: 123px;
+    }
+  }
+
+  &__text {
+    max-width: 367px;
+    word-wrap: break-word;
+    font-size: 16px;
+    color: $text-color;
+    @media screen and (min-width: 768px) {
+      max-width: 461px;
+      font-size: 20px;
+    }
+    @media screen and (min-width: 1440px) {
+      max-width: 540px;
+      font-size: 32px;
+    }
+  }
+}
