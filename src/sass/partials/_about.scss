@@ -1,10 +1,11 @@
 .about {
+  padding-top: 63px;
+  font-family: 'Inter', sans-serif;
+  @media screen and (min-width: 1440px) {
+    padding-top: 53px;
+  }
   &__container {
-    padding: 63px 25px 0 24px;
-    font-family: 'Inter';
-    @media screen and (min-width: 1440px) {
-      padding-top: 53px;
-    }
+    padding: 0 25px 0 24px;
   }
 
   &__title {
@@ -35,10 +36,13 @@
   }
 
   &__text {
-    max-width: 367px;
+    @include responsive("width", 267, 367, 320, 420);
     word-wrap: break-word;
     font-size: 16px;
     color: $text-color;
+    @media screen and (min-width: 420px) {
+      max-width: 367px;
+    }
     @media screen and (min-width: 768px) {
       max-width: 461px;
       font-size: 20px;

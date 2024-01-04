@@ -1,7 +1,11 @@
 .hero {
+  padding: 90px 0 317px;
+  @media screen and (min-width: 1440px) {
+    padding: 158px 0 324px;
+  }
   background: url('../img/hero-background.png') center/cover no-repeat;
   &__container {
-    padding: 90px 0 317px 24px;
+    padding: 0 25px 0 24px;
   }
 
   &__title {

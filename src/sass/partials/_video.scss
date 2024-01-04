@@ -1,54 +1,28 @@
 .video {
-  &__container {
-    padding: 48px 11px 86px 14px;
-    @media screen and (min-width: 1440px) {
-      padding: 86px 0 134px;
-    }
+  padding: 48px 0 14px;
+  @media screen and (min-width: 1440px) {
+    padding: 86px 0 134px;
   }
-
   &__wrap {
     padding: 14px;
-    width: 395px;
-    height: 232px;
+    max-width: 395px;
     margin: 0 auto;
     background-color: #6191bd;
     @media screen and (min-width: 768px) {
       padding: 20px;
-      width: 461px;
-      height: 271px;
+      max-width: 461px;
     }
     @media screen and (min-width: 1440px) {
       padding: 44px 46px;
-      width: 1284px;
-      height: 714px;
+      max-width: 1284px;
     }
   }
 
   &__recording {
-    position: relative;
-    width: 367px;
+    @include responsive("width", 290, 367, 320, 420);
     height: 203px;
-    background: url('../img/recording.jpg') center / cover no-repeat;
-    &::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      cursor: pointer;
-      background-color: rgba(40, 37, 37, 0.35);
-    }
-    &::after {
-      content: '';
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 69px;
-      height: 47px;
-      cursor: pointer;
-      transform: translate(-50%, -50%);
-      background: url('../img/svg/record-yt.svg') center / cover no-repeat;
+    @media screen and (min-width: 420px) {
+      width: 367px;
     }
     @media screen and (min-width: 768px) {
       width: 421px;
@@ -57,10 +31,6 @@
     @media screen and (min-width: 1440px) {
       width: 1192px;
       height: 626px;
-      &::after {
-        width: 224px;
-        height: 144px;
-      }
     }
   }
 }
