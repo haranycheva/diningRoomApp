@@ -1,6 +1,6 @@
 .footer {
   padding: 14px 0 8px;
-  background-color: #477096;
+  background-color: $medium-blue;
   font-size: 12px;
   @media screen and (min-width: 768px) {
     font-size: 15px;
@@ -92,7 +92,7 @@
 
   &__caption-wrap {
     padding-top: 8px;
-    border-top: 2px #325a6a solid;
+    border-top: 2px $darker-medium-blue solid;
     @media screen and (min-width: 1440px) {
       padding-top: 23px;
     }
