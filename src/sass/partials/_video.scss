@@ -19,6 +19,8 @@
   }
 
   &__recording {
+    display: block;
+    margin: 0 auto; 
     @include responsive("width", 290, 367, 320, 420);
     height: 203px;
     @media screen and (min-width: 420px) {
