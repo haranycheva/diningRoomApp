@@ -11,6 +11,11 @@ body {
   background: linear-gradient(166deg, #c5d9eb 0%, #1964a9 130.54%);
 }
 
+.background_timetable-page-gradient {
+  background: linear-gradient(178deg, #88B6E0 1.4%, #1964A9 152.38%);
+}
+
+
 // common classes
 
 .container {
@@ -21,6 +26,15 @@ body {
   }
   @media screen and (min-width: 1440px) {
     max-width: 1440px;
+  }
+}
+
+.title{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 32px;
+  @media screen and (min-width: 1440px) {
+    font-size: 48px;
   }
 }
 

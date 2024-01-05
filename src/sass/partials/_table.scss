@@ -1,0 +1,86 @@
+.table {
+  border-collapse: collapse;
+  background-color: $white;
+  color: $dark-accent-color;
+  font-weight: 500;
+  & td {
+    border: 1px solid $dark-accent-color;
+    vertical-align: middle;
+    
+  }
+}
+
+.timetable {
+  padding: 57px 0 42px;
+  @media screen and (min-width: 1440px) {
+    padding-bottom: 83px;
+  }
+  &__container {
+    @media screen and (min-width: 1440px) {
+      max-width: 1165px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 46px;
+    @media screen and (min-width: 1440px) {
+      margin-bottom: 83px;
+    }
+  }
+
+  &__table {
+    font-size: 20px;
+    &-desktop {
+      display: none;
+      margin: 0 auto;
+      font-size: 24px;
+      @media screen and (min-width: 1440px) {
+        display: table;
+      }
+    }
+  }
+
+  &__row {
+    &-desktop {
+    }
+  }
+
+  &__column {
+    padding: 13px 25px;
+    width: 336px;
+    &:first-child {
+      width: 84px;
+      &:not(.timetable__column_title) {
+        font-size: 16px;
+        padding: 6px 19px;
+      }
+    }
+    @media screen and (min-width: 768px) {
+      width: 600px;
+      &:first-child {
+        width: 168px;
+      }
+    }
+    @media screen and (min-width: 1440px) {
+      display: none;
+    }
+    &-desktop {
+      width: 233px;
+      height: 71px;
+      &:first-child {
+        padding-left: 53px;
+      }
+      &:not(:first-child){
+        text-align: center;
+      }
+    }
+  }
+
+  &__svg {
+    &-desktop {
+      margin: 0 auto;
+      width: 35px;
+      height: 35px;
+    }
+  }
+}
