@@ -1,0 +1,67 @@
+.meals {
+  padding-bottom: 76px;
+  text-transform: uppercase;
+  font-size: 24px;
+  @media screen and (min-width: 1440px) {
+    padding-bottom: 159px;
+    font-size: 48px;
+  }
+  &__list {
+  }
+
+  &__item {
+    &:not(:last-child){
+      margin-bottom: 30px;
+    }
+    @media screen and (min-width: 1440px) {
+      &:not(:last-child){
+        margin-bottom: 58px;
+      }
+    }
+  }
+
+  &__day-title {
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  &__dish-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      gap: 36px;
+    }
+  }
+
+  &__dish-item {
+    background-color: $dish-card-background;
+    padding: 25px 23px 13px;
+    @media screen and (min-width: 1440px) {
+      padding: 39px 45px 33px;
+    }
+  }
+
+  &__thumb {
+    margin-bottom: 13px;
+    width: 320px;
+    height: 193px;
+    @media screen and (min-width: 1440px) {
+      margin-bottom: 34px;
+      width: 580px;
+      height: 376px;
+    }
+  }
+
+  &__img {
+  }
+
+  &__meal-name {
+    -webkit-text-stroke-color: $text-border-color;
+    -webkit-text-stroke-width: 1px;
+    font-weight: 500;
+  }
+}

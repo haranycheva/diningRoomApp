@@ -1,14 +1,14 @@
 .header {
   border-bottom: $dark-accent-color 1px solid;
-  padding: 15px 0 8px;
+  padding: 15px 0;
   @media screen and (min-width: 1440px) {
-    padding: 25px 0 16px 0;
+    padding: 25px 0;
   }
   &__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 24px 0 24px;
+    padding: 0 24px 0;
     @include responsive("max-width", 320, 768, 320, 768);
     @media screen and (min-width: 768px) {
       max-width: 768px;
@@ -41,6 +41,7 @@
 
   &_list {
     display: flex;
+    align-items: center;
     gap: 65px;
     font-weight: 600;
     color: $dark-accent-color;
