@@ -7,6 +7,10 @@ body {
 
 // backgrounds
 
+.background_wishes-page-gradient{
+  background: linear-gradient(206deg, #88B6E0 12.62%, #1964A9 141.31%);
+}
+
 .background_main-page-gradient {
   background: linear-gradient(166deg, #c5d9eb 0%, #1964a9 130.54%);
 }
@@ -35,6 +39,34 @@ body {
   font-size: 32px;
   @media screen and (min-width: 1440px) {
     font-size: 48px;
+  }
+}
+
+.input{
+  display: block;
+  padding-left: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 306px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: $input-text-color;
+  &::placeholder{
+    font-size: 18px;
+    font-weight: 500;
+    color: $input-text-color;
+  }
+  @media screen and (min-width: 768px) {
+    width: 516px;
+  }
+  @media screen and (min-width: 1440px) {
+    padding-left: 25px;
+    width: 1085px;
+    font-size: 24px;
+    &::placeholder{
+      font-size: 24px;
+    }
   }
 }
 

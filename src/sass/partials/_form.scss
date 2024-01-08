@@ -1,0 +1,74 @@
+.wishform {
+  padding-top: 69px;
+  padding-bottom: 35px;
+  @media screen and (min-width: 768px) {
+    padding-bottom: 55px;
+  }
+  @media screen and (min-width: 1440px) {
+    padding-top: 108px;
+    padding-bottom: 100px;
+  }
+  &__title {
+    margin-bottom: 39px;
+    @media screen and (min-width: 1440px) {
+      margin-bottom: 102px;
+    }
+  }
+
+  &__form {
+    margin: 0 auto;
+    padding: 24px 0;
+    border-radius: 15px;
+    max-width: 353px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(
+      180deg,
+      rgba(32, 30, 30, 0.18) 0%,
+      rgba(94, 138, 178, 0) 140.27%
+    );
+    @media screen and (min-width: 768px) {
+      padding: 35px 0;
+      max-width: 588px;
+      gap: 30px;
+    }
+    @media screen and (min-width: 1440px) {
+      padding: 47px 0;
+      max-width: 1212px;
+    }
+  }
+
+  &__input {
+    height: 55px;
+    @media screen and (min-width: 1440px) {
+      height: 89px;
+    }
+  }
+
+  &__textarea {
+    padding-top: 17px;
+    resize: none;
+    height: 220px;
+    @media screen and (min-width: 1440px) {
+      padding-top: 29px;
+      height: 426px;
+    }
+  }
+
+  &__button {
+    margin-right: 28px;
+    padding: 17px 12px;
+    border: none;
+    align-self: flex-end;
+    border-radius: 99px;
+    background: #90b0cd;
+    color: $almost-black;
+    font-size: 20px;
+    @media screen and (min-width: 1440px) {
+      margin-right: 66px;
+      padding: 15px 32px;
+    }
+  }
+}
