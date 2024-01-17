@@ -10,10 +10,7 @@ window.ResizeObserver = ResizeObserver;
 
 new SimpleBar(refs.selectList, {
     autoHide: false,
-    // classNames: {
-    //     scrollbar: "scrollbar"
-    // }
 });
 
-refs.selectTitle.parentElement.addEventListener("click", toggleSelectList)
-refs.selectItems.forEach(item => item.addEventListener("click", selectChoose))
+refs.selectTitle.parentElement.addEventListener("click", toggleSelectList);
+refs.selectItems.forEach(item => item.addEventListener("click", selectChoose));
