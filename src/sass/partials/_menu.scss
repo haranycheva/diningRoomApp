@@ -1,12 +1,128 @@
 .menu {
-  padding: 25px 19px 600px;
+  padding: 25px 19px 78px;
   @media screen and (min-width: 1440px) {
-    padding: 40px 0 600px;
+    padding: 40px 0 148px;
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 35px;
+    column-gap: 25px;
+    margin-top: 33px;
+    @media screen and (min-width: 1440px) {
+      column-gap: 44px;
+      row-gap: 55px;
+      margin-top: 67px;
+    }
+  }
+
+  &__item {
+    padding: 6px 9px 0;
+    width: 178px;
+    height: 259px;
+    background: $cards-gradient;
+    border-radius: 52px 15px 15px 15px;
+    &_none {
+      background-color: $medium-blue;
+      & .menu__availability {
+        color: $olegic;
+        background-color: $very-dark;
+      }
+      & .menu__including {
+        color: $grey-blue;
+      }
+    }
+    @media screen and (min-width: 1440px) {
+      padding: 10px 15px 0;
+      width: 296px;
+      height: 405px;
+    }
+  }
+
+  &__thumb {
+    width: 160px;
+    height: 179px;
+    @media screen and (min-width: 1440px) {
+      width: 266px;
+      height: 280px;
+    }
+  }
+
+  &__img {
+    border-radius: 54px 12px 12px;
+  }
+
+  &__card-title {
+    margin-top: 7px;
+    margin-bottom: 3px;
+    color: #85b6e2;
+    font-size: 13px;
+    font-weight: 700;
+    @media screen and (min-width: 1440px) {
+      font-size: 18px;
+    }
+  }
+
+  &__text-wrap {
+    display: flex;
+    @media screen and (min-width: 1440px) {
+      flex-direction: column;
+      gap: 5px;
+    }
+  }
+
+  &__including {
+    width: 90px;
+    color: $medium-blue;
+    font-size: 10px;
+    font-weight: 600;
+    @media screen and (min-width: 1440px) {
+      font-size: 13px;
+    }
+  }
+
+  &__cost-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @media screen and (min-width: 1440px) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &__price {
+    margin-bottom: 3px;
+    color: $video-wrap-color;
+    font-size: 12px;
+    font-weight: 700;
+    @media screen and (min-width: 1440px) {
+      font-size: 16px;
+    }
+  }
+
+  &__availability {
+    width: 66px;
+    padding: 3px 0;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    background-color: $again-blue;
+    color: $almost-black;
+    @media screen and (min-width: 1440px) {
+      font-size: 14px;
+      width: 88px;
+      margin-bottom: 3px;
+    }
   }
 }
+
 .select {
   position: relative;
-  width: 319px;
+  width: 300px;
   margin-left: auto;
   cursor: pointer;
   font-size: 14px;
@@ -16,7 +132,6 @@
     width: 455px;
   }
   & .simplebar-track.simplebar-vertical {
-    border-radius: 0 0 10px 0;
     background: #ccdbe9;
     width: 14px;
     @media screen and (min-width: 1440px) {
@@ -51,11 +166,11 @@
   }
 
   &__list {
-    width: 319px;
+    width: 300px;
     height: 133px;
+    position: absolute;
     right: 0;
-    top: 0;
-    border-radius: 0 0 10px 10px;
+    top: 31.8px;
     background: linear-gradient(
       174deg,
       rgba(255, 255, 255, 0.79) 4.73%,
@@ -64,6 +179,7 @@
     @media screen and (min-width: 1440px) {
       width: 455px;
       height: 189px;
+      top: 53px;
     }
   }
 
@@ -80,4 +196,7 @@
   &__filling {
     color: $almost-black;
   }
+}
+.select__list[data-simplebar] {
+  position: absolute;
 }
