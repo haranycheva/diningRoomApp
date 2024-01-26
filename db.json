@@ -1,0 +1,116 @@
+{
+  "firstCourses": [
+    {
+      "id": "1",
+      "name": "Борщ з капустою і картоплею",
+      "composition": "Вода, картопля, буряк, морква, цибуля, капуста, томатна паста",
+      "price": "15",
+      "aviability": "false",
+      "pic4201xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172146/diningRoomApp/img-food/borshuk/borshch-420-1x_d7arsx.jpg",
+      "pic4201xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172148/diningRoomApp/img-food/borshuk/borshch-420-1x_ftnf24.webp",
+      "pic4202xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172150/diningRoomApp/img-food/borshuk/borshch-420-2x_lakbmz.jpg",
+      "pic4202xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172151/diningRoomApp/img-food/borshuk/borshch-420-2x_lrbxy9.webp",
+      "pic14401xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172136/diningRoomApp/img-food/borshuk/borshch-1440-1x_idmyhb.jpg",
+      "pic14401xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172140/diningRoomApp/img-food/borshuk/borshch-1440-1x_eroonl.webp",
+      "pic14402xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172142/diningRoomApp/img-food/borshuk/borshch-1440-2x_d1owf2.jpg",
+      "pic14402xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172144/diningRoomApp/img-food/borshuk/borshch-1440-2x_cajep8.webp"
+    }
+  ],
+  "secondCourses": [
+    {
+      "id": "",
+      "name": "Риба смажена в борошні",
+      "composition": "Риба, яйце, борошно",
+      "price": "25",
+      "aviability": "false",
+      "pic4201xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172194/diningRoomApp/img-food/fish/fish-420-1x_nnacmv.jpg",
+      "pic4201xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172195/diningRoomApp/img-food/fish/fish-420-1x_cb9d4n.webp",
+      "pic4202xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172197/diningRoomApp/img-food/fish/fish-420-2x_drt1ng.jpg",
+      "pic4202xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172198/diningRoomApp/img-food/fish/fish-420-2x_jxd3ia.webp",
+      "pic14401xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172188/diningRoomApp/img-food/fish/fish-1440-1x_rsi3ht.jpg",
+      "pic14401xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172190/diningRoomApp/img-food/fish/fish-1440-1x_fimslc.webp",
+      "pic14402xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172191/diningRoomApp/img-food/fish/fish-1440-2x_pm0qmi.jpg",
+      "pic14402xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172193/diningRoomApp/img-food/fish/fish-1440-2x_rgwztn.webp"
+    },
+    {
+      "id": "",
+      "name": "Риба тушкована з овочами",
+      "composition": "Риба, овочі, томатна паста",
+      "price": "30",
+      "aviability": "false",
+      "pic4201xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172206/diningRoomApp/img-food/fish_vegs/fish_vegs-420-1x_xrljvv.jpg",
+      "pic4201xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172207/diningRoomApp/img-food/fish_vegs/fish_vegs-420-1x_aunbkm.webp",
+      "pic4202xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172208/diningRoomApp/img-food/fish_vegs/fish_vegs-420-2x_ff1w2n.jpg",
+      "pic4202xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172209/diningRoomApp/img-food/fish_vegs/fish_vegs-420-2x_voykq8.webp",
+      "pic14401xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172199/diningRoomApp/img-food/fish_vegs/fish_vegs-1440-1x_fddonj.jpg",
+      "pic14401xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172201/diningRoomApp/img-food/fish_vegs/fish_vegs-1440-1x_qbsjys.webp",
+      "pic14402xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172203/diningRoomApp/img-food/fish_vegs/fish_vegs-1440-2x_ep6gdd.jpg",
+      "pic14402xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172204/diningRoomApp/img-food/fish_vegs/fish_vegs-1440-2x_jsafx1.webp"
+    }
+  ],
+  "drinks": [
+    {
+      "id": "",
+      "name": "Компот",
+      "composition": "Фрукти в асортименті, вода",
+      "price": "12",
+      "aviability": "false",
+      "pic4201xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172229/diningRoomApp/img-food/kompot/kompot-420-1x_ksa9qy.jpg",
+      "pic4201xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172230/diningRoomApp/img-food/kompot/kompot-420-1x_lj2afr.webp",
+      "pic4202xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172231/diningRoomApp/img-food/kompot/kompot-420-2x_lq0ng0.jpg",
+      "pic4202xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172233/diningRoomApp/img-food/kompot/kompot-420-2x_lkyge5.webp",
+      "pic14401xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172222/diningRoomApp/img-food/kompot/kompot-1440-1x_kl8ea0.jpg",
+      "pic14401xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172225/diningRoomApp/img-food/kompot/kompot-1440-1x_fmtd9c.webp",
+      "pic14402xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172226/diningRoomApp/img-food/kompot/kompot-1440-2x_sqliye.jpg",
+      "pic14402xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172227/diningRoomApp/img-food/kompot/kompot-1440-2x_vjaw5b.webp"
+    }
+  ],
+  "baking": [],
+  "salads": [
+    {
+      "id": "",
+      "name": "Салат з моркви і капусти",
+      "composition": "Морква, капуста, олія",
+      "price": "15",
+      "aviability": "true",
+      "pic4201xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172161/diningRoomApp/img-food/cabbage_salad/cabbage_salad-420-1x_vyhiju.jpg",
+      "pic4201xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172162/diningRoomApp/img-food/cabbage_salad/cabbage_salad-420-1x_kpzxlh.webp",
+      "pic4202xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172164/diningRoomApp/img-food/cabbage_salad/cabbage_salad-420-2x_qqsvxd.jpg",
+      "pic4202xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172165/diningRoomApp/img-food/cabbage_salad/cabbage_salad-420-2x_tiqlok.webp",
+      "pic14401xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172153/diningRoomApp/img-food/cabbage_salad/cabbage_salad-1440-1x_ubivmb.jpg",
+      "pic14401xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172153/diningRoomApp/img-food/cabbage_salad/cabbage_salad-1440-1x_ubivmb.jpg",
+      "pic14402xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172157/diningRoomApp/img-food/cabbage_salad/cabbage_salad-1440-2x_u93ker.jpg",
+      "pic14402xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172158/diningRoomApp/img-food/cabbage_salad/cabbage_salad-1440-2x_phfrfw.webp"
+    },
+    {
+      "id": "1",
+      "name": "Салат із солоних огірків",
+      "composition": "Цибуля, солоні огірки, олія",
+      "price": "15",
+      "aviability": "false",
+      "pic4201xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172171/diningRoomApp/img-food/cucumbers/cucumbers-420-1x_tikl0r.jpg",
+      "pic4201xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172173/diningRoomApp/img-food/cucumbers/cucumbers-420-1x_qtlakd.webp",
+      "pic4202xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172174/diningRoomApp/img-food/cucumbers/cucumbers-420-2x_d4vigd.jpg",
+      "pic4202xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172176/diningRoomApp/img-food/cucumbers/cucumbers-420-2x_bzyzsd.webp",
+      "pic14401xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172166/diningRoomApp/img-food/cucumbers/cucumbers-1440-1x_bjpwmk.jpg",
+      "pic14401xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172168/diningRoomApp/img-food/cucumbers/cucumbers-1440-1x_b6ojvf.webp",
+      "pic14402xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172169/diningRoomApp/img-food/cucumbers/cucumbers-1440-2x_vp7nu0.jpg",
+      "pic14402xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172170/diningRoomApp/img-food/cucumbers/cucumbers-1440-2x_avo5gv.webp"
+    },
+    {
+      "id": "1",
+      "name": "Квашена капуста",
+      "composition": "капуста, морква",
+      "price": "15",
+      "aviability": "false",
+      "pic4201xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172183/diningRoomApp/img-food/fermented_cabbage/fermented_cabbage-420-1x_bbq0vx.jpg",
+      "pic4201xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172184/diningRoomApp/img-food/fermented_cabbage/fermented_cabbage-420-1x_oghhgi.webp",
+      "pic4202xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172185/diningRoomApp/img-food/fermented_cabbage/fermented_cabbage-420-2x_cmofwk.jpg",
+      "pic4202xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172187/diningRoomApp/img-food/fermented_cabbage/fermented_cabbage-420-2x_oo2vje.webp",
+      "pic1441xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172177/diningRoomApp/img-food/fermented_cabbage/fermented_cabbage-1440-1x_myqnnp.jpg",
+      "pic14401xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172178/diningRoomApp/img-food/fermented_cabbage/fermented_cabbage-1440-1x_iuqzpw.webp",
+      "pic14402xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172179/diningRoomApp/img-food/fermented_cabbage/fermented_cabbage-1440-2x_yh6gvn.jpg",
+      "pic14402xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172181/diningRoomApp/img-food/fermented_cabbage/fermented_cabbage-1440-2x_qczy46.webp"
+    }
+  ]
+}

@@ -3,4 +3,5 @@ export const refs = {
     selectList: document.querySelector(".select-list-js"),
     selectItems: document.querySelectorAll(".select-item-js"),
     scroll: document.querySelector(".simplebar-vertical"),
+    cardsList: document.querySelector(".cards-list-js"),
 }

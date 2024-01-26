@@ -1,6 +1,10 @@
 import { refs } from "./refs.js";
 import { selectChoose } from "./selectChoose.js";
 import { toggleSelectList } from "./toggleSelectList.js";
+import { fetchTheCards} from "./cards/fetch.js";
+import { populateMarkup } from "./cards/populateMarkup.js";
+
+// console.log(fetchTheCards("salads"));
 
 import SimpleBar from 'simplebar'; 
 import 'simplebar/dist/simplebar.css';
@@ -11,6 +15,8 @@ window.ResizeObserver = ResizeObserver;
 new SimpleBar(refs.selectList, {
     autoHide: false,
 });
+
+populateMarkup();
 
 refs.selectTitle.parentElement.addEventListener("click", toggleSelectList);
 refs.selectItems.forEach(item => item.addEventListener("click", selectChoose));

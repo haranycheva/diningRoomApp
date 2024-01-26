@@ -20,11 +20,11 @@
   &__item {
     padding: 6px 9px 0;
     width: 178px;
-    height: 259px;
+    height: 279px;
     background: $cards-gradient;
     border-radius: 52px 15px 15px 15px;
     &_none {
-      background-color: $medium-blue;
+      background: $medium-blue;
       & .menu__availability {
         color: $olegic;
         background-color: $very-dark;
@@ -36,16 +36,14 @@
     @media screen and (min-width: 1440px) {
       padding: 10px 15px 0;
       width: 296px;
-      height: 405px;
+      height: 435px;
     }
   }
 
   &__thumb {
     width: 160px;
-    height: 179px;
     @media screen and (min-width: 1440px) {
       width: 266px;
-      height: 280px;
     }
   }
 
@@ -56,6 +54,7 @@
   &__card-title {
     margin-top: 7px;
     margin-bottom: 3px;
+    height: 32px;
     color: #85b6e2;
     font-size: 13px;
     font-weight: 700;
@@ -66,6 +65,7 @@
 
   &__text-wrap {
     display: flex;
+    align-items: center;
     @media screen and (min-width: 1440px) {
       flex-direction: column;
       gap: 5px;
