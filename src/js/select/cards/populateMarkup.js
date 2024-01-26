@@ -5,7 +5,7 @@ const filterList = ["firstCourses", "secondCourses", "drinks", "salads"]
 
 export async function populateMarkup(){
     const data = [];
-    for(i of filterList){
+    for(const i of filterList){
         const filterData = await fetchTheCards(i)
         data.push(...filterData)
     }
