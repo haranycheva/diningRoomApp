@@ -37,6 +37,7 @@
       padding: 10px 15px 0;
       width: 296px;
       height: 435px;
+      border-radius: 85px 9px 9px;
     }
   }
 
@@ -49,18 +50,26 @@
 
   &__img {
     border-radius: 54px 12px 12px;
+    @media screen and (min-width: 1440px) {
+      border-radius: 85px 9px 9px;
+    }
   }
 
   &__card-title {
     margin-top: 7px;
     margin-bottom: 3px;
-    height: 32px;
     color: #85b6e2;
     font-size: 13px;
     font-weight: 700;
     @media screen and (min-width: 1440px) {
-      height: 42px;
       font-size: 18px;
+    }
+  }
+
+  &__title-wrap{
+    height: 32px;
+    @media screen and (min-width: 1440px) {
+      height: 42px;
     }
   }
 

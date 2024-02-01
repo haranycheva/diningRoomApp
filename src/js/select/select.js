@@ -1,7 +1,6 @@
 import { refs } from "./refs.js";
 import { selectChoose } from "./selectChoose.js";
 import { toggleSelectList } from "./toggleSelectList.js";
-import { fetchTheCards} from "./cards/fetch.js";
 import { populateMarkup } from "./cards/populateMarkup.js";
 
 // console.log(fetchTheCards("salads"));

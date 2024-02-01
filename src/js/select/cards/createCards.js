@@ -38,12 +38,16 @@ export function createCard(card) {
     </picture>
   </div>
   <div class="menu__wrap">
+    <div class="menu__title-wrap">
     <h4 class="menu__card-title">${card.name}</h4>
+    </div>
     <div class="menu__text-wrap">
       <p class="menu__including">${card.composition.slice(0, 45)}...</p>
       <div class="menu__cost-wrap">
         <p class="menu__price">${card.price} грн</p>
-        <p class="menu__availability">${card.aviability === 'true' ? 'в наявн' : 'нема'}</p>
+        <p class="menu__availability">${
+          card.aviability === 'true' ? 'в наявн' : 'нема'
+        }</p>
       </div>
   </div>
   </div>`;

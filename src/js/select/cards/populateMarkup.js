@@ -1,13 +1,14 @@
 import { refs } from "../refs.js";
 import { fetchTheCards } from "./fetch.js";
 import { createCard } from "./createCards.js";
-const filterList = ["firstCourses", "secondCourses", "drinks", "salads"]
+const filterList = ["firstCourses", "secondCourses", "baking", "drinks", "salads"]
 
 export async function populateMarkup(){
     const data = [];
     for(const i of filterList){
         const filterData = await fetchTheCards(i)
         data.push(...filterData)
+        console.log(filterData);
     }
     refs.cardsList.innerHTML = "";
     if (!data) {

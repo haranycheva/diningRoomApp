@@ -5,7 +5,7 @@
       "name": "Борщ з капустою і картоплею",
       "composition": "Вода, картопля, буряк, морква, цибуля, капуста, томатна паста",
       "price": "15",
-      "aviability": "false",
+      "aviability": "true",
       "pic4201xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172146/diningRoomApp/img-food/borshuk/borshch-420-1x_d7arsx.jpg",
       "pic4201xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172148/diningRoomApp/img-food/borshuk/borshch-420-1x_ftnf24.webp",
       "pic4202xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172150/diningRoomApp/img-food/borshuk/borshch-420-2x_lakbmz.jpg",
@@ -22,7 +22,7 @@
       "name": "Риба смажена в борошні",
       "composition": "Риба, яйце, борошно",
       "price": "25",
-      "aviability": "false",
+      "aviability": "true",
       "pic4201xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172194/diningRoomApp/img-food/fish/fish-420-1x_nnacmv.jpg",
       "pic4201xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172195/diningRoomApp/img-food/fish/fish-420-1x_cb9d4n.webp",
       "pic4202xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172197/diningRoomApp/img-food/fish/fish-420-2x_drt1ng.jpg",
@@ -46,6 +46,21 @@
       "pic14401xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172201/diningRoomApp/img-food/fish_vegs/fish_vegs-1440-1x_qbsjys.webp",
       "pic14402xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172203/diningRoomApp/img-food/fish_vegs/fish_vegs-1440-2x_ep6gdd.jpg",
       "pic14402xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172204/diningRoomApp/img-food/fish_vegs/fish_vegs-1440-2x_jsafx1.webp"
+    },
+    {
+      "id": "",
+      "name": "Крученики",
+      "composition": "куряче філе, овочі, вершковий соус",
+      "price": "30",
+      "aviability": "true",
+      "pic4201xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172242/diningRoomApp/img-food/krucheniki/krucheniki-420-1x_ccpmnq.jpg",
+      "pic4201xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172243/diningRoomApp/img-food/krucheniki/krucheniki-420-1x_wibjcy.webp",
+      "pic4202xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172245/diningRoomApp/img-food/krucheniki/krucheniki-420-2x_ur6ojy.jpg",
+      "pic4202xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172247/diningRoomApp/img-food/krucheniki/krucheniki-420-2x_cvlse6.webp",
+      "pic14401xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172239/diningRoomApp/img-food/krucheniki/krucheniki-1440-1x_rrmaa9.jpg",
+      "pic14401xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172240/diningRoomApp/img-food/krucheniki/krucheniki-1440-1x_rfxrfn.webp",
+      "pic14402xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172239/diningRoomApp/img-food/krucheniki/krucheniki-1440-2x_rrmaa9.jpg",
+      "pic14402xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172240/diningRoomApp/img-food/krucheniki/krucheniki-1440-2x_rfxrfn.webp"
     }
   ],
   "drinks": [
@@ -54,7 +69,7 @@
       "name": "Компот",
       "composition": "Фрукти в асортименті, вода",
       "price": "12",
-      "aviability": "false",
+      "aviability": "true",
       "pic4201xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172229/diningRoomApp/img-food/kompot/kompot-420-1x_ksa9qy.jpg",
       "pic4201xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172230/diningRoomApp/img-food/kompot/kompot-420-1x_lj2afr.webp",
       "pic4202xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172231/diningRoomApp/img-food/kompot/kompot-420-2x_lq0ng0.jpg",
@@ -65,7 +80,23 @@
       "pic14402xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172227/diningRoomApp/img-food/kompot/kompot-1440-2x_vjaw5b.webp"
     }
   ],
-  "baking": [],
+  "baking": [
+    {
+      "id": "",
+      "name": " Хачапурі оригінальне",
+      "composition": "Яйця, борошно, сир, маргарин, олія",
+      "price": "25",
+      "aviability": "true",
+      "pic4201xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172217/diningRoomApp/img-food/hachapura/hachapura-420-1x_dernn7.jpg",
+      "pic4201xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172218/diningRoomApp/img-food/hachapura/hachapura-420-1x_nt234a.webp",
+      "pic4202xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172220/diningRoomApp/img-food/hachapura/hachapura-420-2x_n7axzd.jpg",
+      "pic4202xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172221/diningRoomApp/img-food/hachapura/hachapura-420-2x_izhxom.webp",
+      "pic14401xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172210/diningRoomApp/img-food/hachapura/hachapura-1440-1x_kzwplf.jpg",
+      "pic14401xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172212/diningRoomApp/img-food/hachapura/hachapura-1440-1x_sixg7m.webp",
+      "pic14402xjpg": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172214/diningRoomApp/img-food/hachapura/hachapura-1440-2x_swlmce.jpg",
+      "pic14402xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172215/diningRoomApp/img-food/hachapura/hachapura-1440-2x_cyj1qa.webp"
+    }
+  ],
   "salads": [
     {
       "id": "",
@@ -83,7 +114,7 @@
       "pic14402xwebp": "https://res.cloudinary.com/dk3syrsg5/image/upload/v1706172158/diningRoomApp/img-food/cabbage_salad/cabbage_salad-1440-2x_phfrfw.webp"
     },
     {
-      "id": "1",
+      "id": "",
       "name": "Салат із солоних огірків",
       "composition": "Цибуля, солоні огірки, олія",
       "price": "15",
