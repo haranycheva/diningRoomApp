@@ -42,7 +42,7 @@ export function createCard(card) {
     <h4 class="menu__card-title">${card.name}</h4>
     </div>
     <div class="menu__text-wrap">
-      <p class="menu__including">${card.composition.slice(0, 45)}...</p>
+      <p class="menu__including">${card.composition.length > 45 ? card.composition.slice(0, 45) + "..." : card.composition}</p>
       <div class="menu__cost-wrap">
         <p class="menu__price">${card.price} грн</p>
         <p class="menu__availability">${
